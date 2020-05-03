@@ -1,0 +1,271 @@
+/*****BASESTYLES*****/
+
+body {
+  font-family: 'Libre Baskerville', serif, 'Open Sans', sans-serif;
+  margin: 0 auto;
+}
+ 
+header {
+    height: 800px;
+    margin: 0 auto;
+}
+
+#about {
+    height: 1050px;
+}
+
+#portfolio {
+    height: 850px;
+}
+
+#contact {
+    height: 650px;
+}
+
+
+
+/*****CONTAINER*****/
+
+
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/*****HEADER*****/
+
+header {
+    background-color: #ffffff;
+    background-size: cover;
+    height: 800px;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+    padding-top: 30px;
+
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #313131;
+    font-size: 24px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    padding-right: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    border-radius: 5px;
+    color: #ff654a;
+}
+
+.intro h1 {
+    color: #313131; 
+    font-family: 'Libre Baskerville', serif;
+    font-size: 64px;
+    margin: 0;
+    padding: 300px 200px 0px 200px;   
+    text-align: left; 
+}
+
+.intro h1 span {
+    color: #ff654a;
+}
+
+ .intro p {
+    color: #313131;
+    font-family: 'Open sans', sans-serif;
+    font-size: 46px;
+    padding: 0px 300px 200px 200px;
+    text-align: left;
+}
+
+/*****ABOUT*****/
+#about {
+    background-color: #ff654a;
+    margin: 0 auto;
+}
+
+#about .full-width {
+   height: 1050px; 
+   width: 1200px;
+}
+
+#about .full-width h2 {
+    color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+    padding-bottom: 0px;
+    padding-top: 150px;
+    text-align: center;
+    
+    
+}
+
+#about .full-width img {
+    padding: 10px 450px 50px 450px;
+}
+
+
+#about .full-width h3 {
+    color: #ffffff; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+#about .full-width p {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    padding: 20px 300px 100px 300px;
+    text-align: center;
+    width: 600px;  
+}
+ 
+/*****PORTFOLIO*****/
+#portfolio {
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+#portfolio .full-width {
+    height: 850px; 
+    width: 1200px;
+    }
+
+#portfolio h2 {
+    color: #313131;
+    font-size: 36px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    padding-bottom: 100px;
+    padding-top: 200px;
+    text-align: center;    
+}
+
+#portfolio .third-width {
+    width: 400px;
+            }
+
+#portfolio .third-width img {
+    width: 350px;
+}
+
+
+#portfolio .third-width h3 {
+    color: #313131;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: -15px;
+    padding: 22px 60px 0px 20px;
+    width: 350px;
+}
+
+#portfolio .third-width p {
+    color: #313131;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 0px 60px 50px 20px;
+    width: 350px;
+    
+  }
+
+
+
+ 
+/*****CONTACT*****/
+ 
+#contact {
+    background-color: #ff654a;
+    color: white;
+    margin: 0 auto;
+    }
+
+#contact .full-width {
+    height: 650px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#contact .full-width h5 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 1px 0px 1px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.third-width  {
+    text-align: center;
+    width: 400px;
+}
+
+.third-width h6 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px; 
+    text-align: center;
+}
+
+.third-width a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.third-width a:hover {
+    border-radius: 5px;
+    color: #313131;
+}
+
+.third-width ul {
+    display: inline;
+    list-style: none;
+    padding: 5px 0px 0px 0px;
+    text-align: center;
+}
+
+.third-width ul li a {
+    background-color: #ff654a;
+    float: left;
+    padding: 10px 10px 10px 50px;
+   }
+
+/*****FOOTER*****/
+
+.footer p {
+    background-color: #ff654a;
+    color: #ffffff;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;    
+}
